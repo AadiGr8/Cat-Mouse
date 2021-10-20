@@ -7,13 +7,13 @@ var cat2Img,mouse2Img;
 function preload() {
     //load the images here
 
-    mouseImg = loadImage("images/mouse4.png");
-    catImg = loadImage("images/cat1.png");
-    cat1Img = loadAnimation("images/cat2.png","images/cat3.png");
-    mouse1Img = loadAnimation("images/mouse2.png","images/mouse3.png");
-    gardenImg = loadImage("images/garden.png");
-    cat2Img = loadAnimation("images/cat4.png");
-    mouse2Img = loadAnimation("images/mouse1.png")
+    mouseImg = loadImage("mouse4.png");
+    catImg = loadImage("cat1.png");
+    cat1Img = loadAnimation("cat2.png","cat3.png");
+    mouse1Img = loadAnimation("mouse2.png","mouse3.png");
+    gardenImg = loadImage("garden.png");
+    cat2Img = loadAnimation("cat4.png");
+    mouse2Img = loadAnimation("mouse1.png")
 
 }
 
